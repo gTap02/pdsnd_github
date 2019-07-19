@@ -13,4 +13,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Thanks Udacity, Stackoverflow for helping me learn along the way.
+Thanks Udacity, Stackoverflow, DataCamp for helping me learn along the way.
