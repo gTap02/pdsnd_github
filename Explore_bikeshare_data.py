@@ -8,6 +8,10 @@
 # You will be graded against the project [Rubric](https://review.udacity.com/#!/rubrics/2508/view) by a mentor after you have submitted.  To get you started, you can use the template below, but feel free to be creative in your solutions!
 
 # In[46]:
+library(lubridate)
+library(dplyr)
+library(ggplot2)
+
 
 ny = read.csv('new_york_city.csv')
 wash = read.csv('washington.csv')
@@ -21,10 +25,6 @@ head(chi)
 # **What are the popular times of travel in each of the three cities basis the most common month, the most common day and the most common hour?**
 
 # Your solution code goes here
-
-library(lubridate)
-library(dplyr)
-library(ggplot2)
 
 # Most common month - Chicago
 chi$month <- month(as.Date(chi$Start.Time), label = TRUE)
