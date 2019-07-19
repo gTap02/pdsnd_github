@@ -5,7 +5,7 @@ July 18th 2019
 Explore Bike Sharing Data
 
 ### Description
-Explore the bike sharing data for Chicago, New York and Washington cities and derive meaningful insights from it.
+Explore the bike sharing data for Chicago, New York and Washington cities and derive meaningful insights from it. (Identifying popular bike stations, average time of travel, etc.)
 
 ### Files used
 chicago.csv
